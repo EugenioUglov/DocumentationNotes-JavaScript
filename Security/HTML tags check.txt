@@ -1,0 +1,6 @@
+function isContainHTML(subject) {
+    return /<[a-z][\s\S]*>/i.test(subject);
+}
+
+Sources:
+[1] https://gist.github.com/kirpalmakanga/28f7b3163d9fb6c86bcc9c666bf566b3
